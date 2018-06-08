@@ -24,6 +24,7 @@ public class Main {
                 output.println("Echo from server => " + echoString);
             }
         }catch(IOException e){
+            System.out.println("Server error");
             e.printStackTrace();
         }
     }
